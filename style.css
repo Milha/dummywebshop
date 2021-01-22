@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.mainBox {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #EBE6DD;
+    color: #450500;
+    font-family: 'Merriweather', serif;
+    /* background-image: url("plantLanding.jpg"); */
+}
+
+/* Navbar */
+
+.nav-div h1 {
+    text-align: center;
+}
+
+.nav-box {
+    text-align: center;
+    
+}
+
+.nav-box a {
+    text-decoration: none;
+    padding: 5px;
+    color: #450500;
+}
+
+/* Burger big screen */
+
+.menu-drop {
+  display: none;
+}
+
+
+/* Main items boxex */
+
+.mainBox {
+    margin: 100px;
+}
+
+.box1, .box2, .box3 {
+    background: crimson;
+    width: 350px;
+    height: 350px;
+    margin: 10px; 
+    text-align: center;
+    
+}
+
+.box1 {  
+    background-image: url("flowersLanding.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2 {  
+    background-image: url("flowersLandingGimped400x400Linear.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box3 {  
+    background-image: url("flowersLandingGimped400x400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Media query */
+
+/* Mobile */
+
+@media (max-width: 48em) {
+    .mainBox {
+        display: block;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-box {
+        display: none;
+    }
+
+    /* Burger */
+    
+}
